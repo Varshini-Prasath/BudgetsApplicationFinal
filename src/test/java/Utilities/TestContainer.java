@@ -1,12 +1,11 @@
 package Utilities;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.edge.EdgeDriver;
 import PageObject.PageObjectManager_FactDesign;
 
 public class TestContainer {
 	
-	public ChromeDriver driver;
+	public EdgeDriver driver;
 	public PageObjectManager_FactDesign pageObject;
 	
 	public TestContainer() {

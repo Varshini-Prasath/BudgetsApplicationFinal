@@ -13,5 +13,10 @@ public class PageObjectManager_FactDesign {
 		CategoryPageObject categories = new CategoryPageObject(this.driver);
 		return categories;
 	}
+	
+	public checkForAddedCategory checkForCategory() {
+		checkForAddedCategory checkCategory = new checkForAddedCategory(this.driver);
+		return checkCategory;
+	}
 
 }
