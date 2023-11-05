@@ -71,6 +71,8 @@ public class CategoryPageObject {
 		assertEquals(descValue, categoryDescValue );
 		System.out.println(descValue);
 		categoryDescription.sendKeys(string2);
+		
+		
 	}
 	
 	public void check_Options_TransType(DataTable dataTable) {
